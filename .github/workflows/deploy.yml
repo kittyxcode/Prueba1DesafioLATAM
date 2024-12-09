@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - main  # Se ejecuta en cada push a la rama `main`
+  pull_request:
+    branches:
+      - main
 
 jobs:
   deploy:
